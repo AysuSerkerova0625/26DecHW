@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/* -------------------- Task 1 ---------------------*/
+p:first-child {
+  text-decoration: underline;
+}
+p:first-child + p {
+  text-align: center;
+  text-decoration: line-through;
+}
+p:first-child + p + p {
+  text-align: right;
+}
+
+/* -------------------- Task 2 ---------------------*/
+h1 {
+  color: green;
+  text-shadow: 5px 5px black;
+}
+
+/* -------------------- Task 3 ---------------------*/
+p.article {
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+p.article b {
+  text-align: center;
+  display: block;
+}
+
+/* -------------------- Task 4 ---------------------*/
+.background-image {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background: url(licensed-image.jpeg) center;
+  background-size: cover;
+}
+
+/* -------------------- Task 5 ---------------------*/
+.background-color {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  background-color: gray;
+  box-shadow: 10px 10px 3px 5px black;
+}
